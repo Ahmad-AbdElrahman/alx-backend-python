@@ -2,6 +2,7 @@
 """
 Basic annotations - floor
 """
+import math
 
 
 def floor(n: float) -> float:
@@ -9,4 +10,4 @@ def floor(n: float) -> float:
     function which takes a float n as argument
     and returns the floor of the float.
     """
-    return n // 1
+    return math.floor(n)
